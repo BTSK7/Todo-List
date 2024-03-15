@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-color: #4287f5;
+    background-color: azure;
+    border-width: 5px;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.section1 {
+    text-align: center;
+    font-family: "Roboto";
+    margin: 10px;
+}
+
+.section2 {
+    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-width: 5px;
+    border-color: #4287f5;
+}
+
+.divEl {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    background-color: #c2e8ff;
+    border-style: outset;
+    border-width: 3px;
+    border-color: #4287f5;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 5px;
+    color: grey;
+}
+
+
+.mr {
+    margin: 2px;
+}
+
+.msg {
+    font-family: "Roboto";
+    color: red;
+    text-align: center;
+}
+
+.deleteButton {
+    background-color: #4287f5;
+    border-radius: 2px;
+    color: white;
+    margin: 2px;
+    border-color: white;
+    border-width: 0px;
+    height: 20px;
+    text-align: center;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: red;
+}
+
+.inputbar {
+    border-width: 2px;
+    border-color: #4287f5;
+    border-radius: 5px;
+    background-color: #c2e8ff;
+    border-style: outset;
+}
+
+.headings {
+    color: grey;
+    font-family: "Roboto";
+}
